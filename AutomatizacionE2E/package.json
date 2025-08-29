@@ -1,0 +1,17 @@
+{
+  "name": "automatizacion-e2e-opencart",
+  "version": "1.0.0",
+  "private": true,
+  "description": "Prueba técnica | Playwright + JS + POM",
+  "scripts": {
+    "pretest": "npx playwright install --with-deps",
+    "test": "playwright test",
+    "test:headed": "playwright test --headed",
+    "report": "playwright show-report",
+    "trace:open": "playwright show-trace ./test-results/**/trace.zip",
+    "clean": "node -e \"require('fs').rmSync('test-results',{recursive:true,force:true});require('fs').rmSync('playwright-report',{recursive:true,force:true});\""
+  },
+  "devDependencies": {
+    "@playwright/test": "^1.47.2"
+  }
+}

@@ -1,0 +1,36 @@
+# === NO SUBIR RUNTIMES/TOOLS ===
+# JDK / JRE
+jdk*/
+openjdk*/
+jre*/
+**/bin/java*
+**/bin/javac*
+
+# JMeter (instalaciones y binarios)
+apache-jmeter-*/
+jmeter*/
+**/bin/jmeter*
+**/lib/ext/*
+
+# Resultados y reportes de JMeter
+results/
+report/
+reports/
+**/*.jtl
+**/jmeter.log
+**/*.csv
+**/*.tmp
+
+# Node / Python (si aplican)
+node_modules/
+dist/
+build/
+.env
+__pycache__/
+*.pyc
+
+# SO y editor
+.DS_Store
+Thumbs.db
+.vscode/
+.idea/
