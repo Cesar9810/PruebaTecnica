@@ -6,11 +6,12 @@ jre*/
 **/bin/java*
 **/bin/javac*
 
-# JMeter (instalaciones y binarios)
-apache-jmeter-*/
-jmeter*/
-**/bin/jmeter*
-**/lib/ext/*
+ApiTesting/Jmeter/results/
+ApiTesting/Jmeter/report*/
+ApiTesting/Jmeter/temp/
+ApiTesting/Jmeter/jmeter.log
+**/*.jtl
+**/*.tmp
 
 # Resultados y reportes de JMeter
 results/
@@ -18,7 +19,6 @@ report/
 reports/
 **/*.jtl
 **/jmeter.log
-**/*.csv
 **/*.tmp
 
 # Node / Python (si aplican)

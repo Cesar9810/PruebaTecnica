@@ -1,0 +1,4 @@
+"title","price","description","image","category"
+"QA Load A","19.99","Item A creado por JMeter","https://picsum.photos/seed/a/600/600","electronics"
+"QA Load B","29.99","Item B creado por JMeter","https://picsum.photos/seed/b/600/600","electronics"
+"QA Load C","39.99","Item C creado por JMeter","https://picsum.photos/seed/c/600/600","electronics"
